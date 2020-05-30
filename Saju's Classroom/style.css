@@ -1,0 +1,171 @@
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.button1 {
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: smaller;
+  position: absolute;
+  top: 61%;
+  left: 1.5%;
+}
+
+.button2 {
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: smaller;
+  position: absolute;
+  top: 11%;
+  left: 1.5%;
+}
+
+.firstNumVersion1 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 11%;
+  top: 1%;
+}
+
+.firstNumVersion2 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 11%;
+  top: 19.5%;
+}
+
+.firstNumVersion3 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 11%;
+  top: 37%;
+}
+
+.firstNumVersion4 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 11%;
+  top: 55.6%;
+}
+
+.firstNumVersion5 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 11%;
+  top: 72.6%;
+}
+
+.firstNumVersion6 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 13.6%;
+  top: 89.6%;
+}
+
+.firstNumVersion7 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 13.6%;
+  top: 106.3%;
+}
+
+.firstNumVersion8 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 15%;
+  top: 124%;
+}
+
+.firstNumVersion9 {
+  resize: none;
+  font-weight: bolder;
+  font-size: 60pt;
+  position: absolute;
+  left: 4.5%;
+  top: 19.5%;
+}
+
+.horizLine1 {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 13%;
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.horizLine2 {
+  border: 0.2px solid black;
+  border-radius: 5px;
+  width: 13%;
+  position: absolute;
+  top: 52.5%;
+  left: 10%;
+}
+
+.horizLine3 {
+  border: 0.2px solid black;
+  border-radius: 5px;
+  width: 13%;
+  position: absolute;
+  top: 121.5%;
+  left: 10%;
+}
+
+.horizLine4 {
+  border: 0.2px solid black;
+  border-radius: 5px;
+  width: 13%;
+  position: absolute;
+  top: 87.5%;
+  left: 10%;
+}
+
+.verLine {
+  border-left: 6px solid black;
+  height: 500px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10.3%;
+  margin-left: -3px;
+  top: 18%;
+  height: 40%;
+}
