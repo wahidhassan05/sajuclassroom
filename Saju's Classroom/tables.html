@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Times Tables</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="icons8-grid-2-64.png" />
+    <link rel="stylesheet" href="tablesStyle.css" />
+  </head>
+  <body style="background-color: pink;">
+    
+    <div id="links">
+      <a href="./index.html" >Do Mult</a><br/>
+      <a href="./division.html" >Do Division</a>
+    </div>
+    
+    <textarea
+      class="textArea1"
+      maxlength="1"
+      name="column1"
+      id="col1"
+      cols="1"
+      rows="1"
+    ></textarea>
+    <textarea
+      class="textArea2"
+      maxlength="1"
+      name="column2"
+      id="col2"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea3"
+      maxlength="1"
+      name="column3"
+      id="col3"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea4"
+      maxlength="1"
+      name="column4"
+      id="col4"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea5"
+      maxlength="1"
+      name="column5"
+      id="col5"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea6"
+      maxlength="1"
+      name="column6"
+      id="col6"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea7"
+      maxlength="1"
+      name="column7"
+      id="col7"
+      cols="1"
+      rows="1"
+    ></textarea>
+    <textarea
+      class="textArea8"
+      maxlength="1"
+      name="column8"
+      id="col8"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea9"
+      maxlength="1"
+      name="column9"
+      id="col9"
+      cols="1"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea10"
+      maxlength="2"
+      name="column10"
+      id="col10"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea11"
+      maxlength="2"
+      name="column11"
+      id="col11"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea12"
+      maxlength="2"
+      name="column12"
+      id="col12"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea13"
+      maxlength="2"
+      name="column13"
+      id="col13"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea14"
+      maxlength="2"
+      name="column14"
+      id="col14"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea15"
+      maxlength="2"
+      name="column15"
+      id="col15"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea16"
+      maxlength="2"
+      name="column16"
+      id="col16"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea17"
+      maxlength="2"
+      name="column17"
+      id="col17"
+      cols="2"
+      rows="1"
+    ></textarea>
+
+    <textarea
+      class="textArea18"
+      maxlength="3"
+      name="column18"
+      id="col18"
+      cols="3"
+      rows="1"
+    ></textarea>
+
+    <h1 class="sign1">×</h1>
+
+    <h1 class="sign2">×</h1>
+    <h1 class="sign3">×</h1>
+    <h1 class="sign4">×</h1>
+    <h1 class="sign5">×</h1>
+    <h1 class="sign6">×</h1>
+
+    <h1 class="equalsign1">=</h1>
+
+    <h1 class="equalsign2">=</h1>
+    <h1 class="equalsign3">=</h1>
+    <h1 class="equalsign4">=</h1>
+    <h1 class="equalsign5">=</h1>
+    <h1 class="equalsign6">=</h1>
+
+    <div id="showButton">
+      <button type="button" id="showBtn" class="btn btn-primary btn-sm">
+        Show
+      </button>
+    </div>
+
+    <div class="form-row align-items-center" id="selection">
+      <div class="col-auto my-1">
+        <select class="custom-select mr-sm-2" id="input">
+          <option value="0">Choose...</option>
+          <option value="2">2 => 1 to 6</option>
+          <option value="3">2 => 7 to 12</option>
+          <option value="4">3 => 1 to 6</option>
+          <option value="5">3 => 7 to 12</option>
+          <option value="6">4 => 1 to 6</option>
+          <option value="7">4 => 7 to 12</option>
+          <option value="8">5 => 1 to 6</option>
+          <option value="9">5 => 7 to 12</option>
+          <option value="10">6 => 1 to 6</option>
+          <option value="11">6 => 7 to 12</option>
+          <option value="12">7 => 1 to 6</option>
+          <option value="13">7 => 7 to 12</option>
+          <option value="14">8 => 1 to 6</option>
+          <option value="15">8 => 7 to 12</option>
+          <option value="16">9 => 1 to 6</option>
+          <option value="17">9 => 7 to 12</option>
+        </select>
+      </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="tablesApp.js" defer></script>
+  </body>
+</html>

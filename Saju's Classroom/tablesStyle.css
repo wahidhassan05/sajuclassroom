@@ -1,0 +1,299 @@
+#links {
+  position: absolute;
+  top: 1%;
+  left: 30%;
+}
+
+#showButton {
+  position: absolute;
+  left: 42%;
+  top: 90%;
+}
+
+#selection {
+  position: absolute;
+  left: 30%;
+  top: 89%;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: small;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.textArea1 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 1%;
+}
+
+.textArea2 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 17%;
+}
+
+.textArea3 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 33%;
+}
+
+.textArea4 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 49%;
+}
+
+.textArea5 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 65%;
+}
+
+.textArea6 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 3%;
+  top: 81%;
+}
+
+.textArea7 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 1%;
+}
+
+.textArea8 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 17%;
+}
+
+.textArea9 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 33%;
+}
+
+.textArea10 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 49%;
+}
+
+.textArea11 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 65%;
+}
+
+.textArea12 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 9%;
+  top: 81%;
+}
+
+.textArea13 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 15.4%;
+  top: 1%;
+}
+
+.textArea14 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 15.4%;
+  top: 17%;
+}
+
+.textArea15 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 15.4%;
+  top: 33%;
+}
+
+.textArea16 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 17.8%;
+  top: 49%;
+}
+
+.textArea17 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 17.8%;
+  top: 65%;
+}
+
+.textArea18 {
+  font-size: 45pt;
+  font-weight: bolder;
+  resize: none;
+  position: absolute;
+  left: 17.8%;
+  top: 81%;
+}
+
+.sign1 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 3.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+.sign2 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 18.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+.sign3 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 34.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+.sign4 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 50.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+.sign5 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 66.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+.sign6 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 82.2%;
+  left: 6.6%;
+  display: table-cell;
+}
+
+.equalsign1 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 3.2%;
+  left: 12.8%;
+  display: table-cell;
+}
+.equalsign2 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 18.2%;
+  left: 12.8%;
+  display: table-cell;
+}
+.equalsign3 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 34.2%;
+  left: 12.8%;
+  display: table-cell;
+}
+.equalsign4 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 50.2%;
+  left: 15.2%;
+  display: table-cell;
+}
+.equalsign5 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 66.2%;
+  left: 15.2%;
+  display: table-cell;
+}
+.equalsign6 {
+  font-weight: bolder;
+  font-size: 40pt;
+  position: absolute;
+  top: 82.2%;
+  left: 15.2%;
+  display: table-cell;
+}

@@ -1,4 +1,9 @@
-/* unvisited link */
+#links {
+  position: absolute;
+  top: 1%;
+  left: 30%;
+}
+
 a:link {
   color: red;
   text-decoration: none;
@@ -119,7 +124,7 @@ a:active {
   font-weight: bolder;
   font-size: 60pt;
   position: absolute;
-  left: 4.5%;
+  left: 1.5%;
   top: 19.5%;
 }
 
