@@ -1,6 +1,6 @@
 # sajuclassroom
 
-Created a simple webpage (using HTML-CSS and Javascript) to teach multiplication and division to my nephew Sajid during COVID-19 pandemic. 
+Created a simple webpage (using HTML-CSS and Javascript) to teach times tables, multiplication and division to my nephew Sajid during COVID-19 pandemic. 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 - The user can perform 3 x 2 digit multiplications.
