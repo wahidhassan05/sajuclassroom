@@ -9,3 +9,4 @@ Created a simple webpage (using HTML-CSS and Javascript) to teach times tables, 
 - The fonts are very visible through video call.
 - The webpage scatters if not viewed in full screen. 
 - Trying to fix this issue using Bootstrap 4 and/or other technologies.
+- To see how it works please visit this link: https://youtu.be/kNIC3GlOto8
