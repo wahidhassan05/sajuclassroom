@@ -15,22 +15,27 @@
   </head>
 
   <body>
-    <div class="bg">
-      <div id="links">
-        <a href="./division.html" >Do Division</a><br/>
-        <a href="./tables.html" >Do Tables</a>
-      </div>
+   <div class="bg">
+
+   
+    <div class="container">
       
-      <div>
+      <div class="row">
+
+      <div id="links">
+        <a href="./division.html">Do Division</a><br />
+        <a href="./tables.html">Do Tables</a>
+      </div>
+
+      
         <textarea
-          class="firstNumVersion1"
+          class="firstNumVersion1 col-3"
           id="firstNumV1"
           cols="3"
           rows="1"
           maxlength="3"
         ></textarea>
-      </div>
-      <div>
+
         <textarea
           class="secNumVersion1"
           id="secNumV1"
@@ -38,8 +43,7 @@
           rows="1"
           maxlength="1"
         ></textarea>
-      </div>
-      <div>
+
         <textarea
           class="result1"
           id="res1"
@@ -47,8 +51,7 @@
           rows="1"
           maxlength="4"
         ></textarea>
-      </div>
-      <div>
+
         <textarea
           class="firstNumVersion2"
           id="firstNumV2"
@@ -56,8 +59,7 @@
           rows="1"
           maxlength="3"
         ></textarea>
-      </div>
-      <div>
+
         <textarea
           class="secNumVersion2"
           id="secNumV2"
@@ -65,24 +67,24 @@
           rows="1"
           maxlength="2"
         ></textarea>
-      </div>
-      <textarea
+
+        <textarea
           class="semiResult1"
           id="semiRes1"
           cols="4"
           rows="1"
           maxlength="4"
         ></textarea>
-      </div>
-      <textarea
+
+        <textarea
           class="semiResult2"
           id="semiRes2"
           cols="4"
           rows="1"
           maxlength="4"
         ></textarea>
-      </div>
-      <textarea
+
+        <textarea
           class="result2"
           id="res2"
           cols="5"
@@ -90,13 +92,15 @@
           maxlength="5"
         ></textarea>
       </div>
+      </div>
       <button type="button" id="multButton1" class="button1">Result</button>
-    <button type="button" id="multButton2" class="button2">Result</button>
-    
-    <h1 class="sign1">×</h1>
-    <h1 class="sign2">×</h1>
-    <h1 class="sign3">×</h1>
+      <button type="button" id="multButton2" class="button2">Result</button>
+
+      <h1 class="sign1">×</h1>
+      <h1 class="sign2">×</h1>
+      <h1 class="sign3">×</h1>
     </div>
+  </div>
     <script src="./multApp.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

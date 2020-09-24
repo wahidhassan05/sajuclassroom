@@ -20,6 +20,7 @@ let col1 = document.getElementById("col1"),
 let input = document.getElementById("input");
 
 let showBtn = document.getElementById("showBtn");
+let hideBtn = document.getElementById("hideBtn");
 
 let showMultiplesSet1 = () => {
   col7.textContent = 1;
@@ -103,6 +104,15 @@ let showNum = () => {
   calculate();
 };
 
+let hideNum = () => {
+  col13.textContent = "?";
+  col14.textContent = "?";
+  col15.textContent = "?";
+  col16.textContent = "?";
+  col17.textContent = "?";
+  col18.textContent = "?";
+};
+
 let calculate = () => {
   col13.textContent = parseInt(col1.value) * parseInt(col7.value);
   col14.textContent = parseInt(col2.value) * parseInt(col8.value);
@@ -113,3 +123,4 @@ let calculate = () => {
 };
 
 showBtn.addEventListener("click", showNum);
+hideBtn.addEventListener("click", hideNum);

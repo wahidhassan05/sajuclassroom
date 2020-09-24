@@ -10,6 +10,12 @@
   top: 90%;
 }
 
+#hideButton {
+  position: absolute;
+  left: 47%;
+  top: 90%;
+}
+
 #selection {
   position: absolute;
   left: 30%;
